@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>Restaurant</title>
+        <vendor>abusyed</vendor>
+        <homepage href=""/>
+        <description>Restaurant</description>
+        <description kind="short">Restaurant</description>
+    </information>
+    <update check="always"/>
+    <resources>
+        <j2se version="1.8+"/>
+        <jar href="Restaurant.jar" main="true"/>
+    <jar href="lib/derbyclient.jar"/>
+</resources>
+    <application-desc main-class="Restuarant.Restaurant">
+    </application-desc>
+</jnlp>
